@@ -23,10 +23,10 @@
 
 .letter1-right {
   position: absolute;
-  right: 6%;
+  right: 5%;
   top: 50%;
   transform: translateY(-50%);
-  width: 320px;
+  width: 240px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,11 +64,11 @@
   transform: rotate(var(--tilt));
 }
 
-.polaroid-scatter .polaroid:nth-child(1){top:-3%;left:2%;width:200px;aspect-ratio:3/4;--tilt:-6deg;}
-.polaroid-scatter .polaroid:nth-child(2){top:28%;left:25%;width:250px;aspect-ratio:3/4;--tilt:5deg;}
-.polaroid-scatter .polaroid:nth-child(3){top:45%;left:2%;width:200px;aspect-ratio:3/4;--tilt:-4deg;}
-.polaroid-scatter .polaroid:nth-child(4){top:-3%;left:55%;width:200px;aspect-ratio:3/4;--tilt:6deg;}
-.polaroid-scatter .polaroid:nth-child(5){top:50%;left:53%;width:220px;aspect-ratio:3/4;--tilt:-8deg;}
+.polaroid-scatter .polaroid:nth-child(1){top:-3%;left:2%;width:150px;aspect-ratio:3/4;--tilt:-6deg;}
+.polaroid-scatter .polaroid:nth-child(2){top:28%;left:25%;width:200px;aspect-ratio:3/4;--tilt:5deg;}
+.polaroid-scatter .polaroid:nth-child(3){top:45%;left:2%;width:150px;aspect-ratio:3/4;--tilt:-4deg;}
+.polaroid-scatter .polaroid:nth-child(4){top:-3%;left:55%;width:150px;aspect-ratio:3/4;--tilt:6deg;}
+.polaroid-scatter .polaroid:nth-child(5){top:50%;left:53%;width:180px;aspect-ratio:3/4;--tilt:-8deg;}
 
 @keyframes floatSoft {
   0% { transform: translateY(0) rotate(var(--tilt)); }
@@ -151,7 +151,7 @@
   overflow: hidden;
 
   font-family: "Imperial Script", cursive;
-  font-size: 10rem;
+  font-size: 6rem;
   color: #6b1f3a;
   margin: 0;
   white-space: nowrap;
@@ -223,7 +223,7 @@
 
 /* Subtitle */
 .letter2-subtitle {
-  font-size: 3rem;
+  font-size: 2rem;
   font-style: italic;
   color: black;
   opacity: 0.8;
@@ -235,9 +235,9 @@
 ======================================================= */
 .letter2-polaroids {
   position: relative;
-  width: 1800px;
-  height: 850px;
-  margin-top: 160px; /* space for big heading */
+  width: 1200px;
+  height: 500px;
+  margin-top: 100px; /* space for big heading */
   z-index: 2;
 }
 
@@ -249,7 +249,7 @@
 .letter2-polaroids .polaroid:nth-child(1) {
   top: 100px;
   left: 180px;
-  width: 300px;
+  width: 200px;
   aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
 }
@@ -257,7 +257,7 @@
 .letter2-polaroids .polaroid:nth-child(3) {
   top: -150px;
   left: 80px;
-  width: 200px;
+  width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(5deg);
 }
@@ -265,7 +265,7 @@
 .letter2-polaroids .polaroid:nth-child(5) {
   top: 500px;
   left: 300px;
-  width: 200px;
+  width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(10deg);
 }
@@ -274,7 +274,7 @@
 .letter2-polaroids .polaroid:nth-child(6) {
   top: 200px;
   left: 600px;
-  width: 600px;
+  width: 400px;
   z-index: 5;
   border-bottom-width: 60px;
 }
@@ -288,7 +288,7 @@
 .letter2-polaroids .polaroid:nth-child(2) {
   top: 80px;
   right: 150px;
-  width: 300px;
+  width: 200px;
   aspect-ratio: 3 / 4;
   transform: rotate(8deg);
 }
@@ -296,7 +296,7 @@
 .letter2-polaroids .polaroid:nth-child(4) {
   top: -130px;
   right: -50px;
-  width: 200px;
+  width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
 }
@@ -304,7 +304,7 @@
 .letter2-polaroids .polaroid:nth-child(7) {
   top: 450px;
   right: -30px;
-  width: 200px;
+  width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
 }
@@ -314,7 +314,7 @@
 ======================================================= */
 .letter2-page .back-btn {
   position: absolute;
-  bottom: 70px;
+  bottom: 50px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -374,11 +374,11 @@
   position: relative;
   z-index: 2;
 
-  max-width: 1050px;
-  width: 95%;
+  max-width: 820px;
+  width: 88%;
 
   /* slightly left, elegant */
-  transform: translateX(-300px);
+  transform: translateX(-200px);
 }
 
 .letter3-paper-img {
@@ -391,7 +391,7 @@
 /* Text ON paper */
 .letter3-content {
   position: absolute;
-  top: 12%;
+  top: 10%;
   left: 50%;
   transform: translateX(-50%);
 
@@ -399,8 +399,8 @@
   text-align: center;
 
   font-family: "Italianno", cursive;
-  font-size: 2.6rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   letter-spacing: 0.06rem;
 
   color: #000;
@@ -412,16 +412,16 @@
 }
 
 .letter3-sign {
-  margin-top: -50px;
+  margin-top: -35px;
   text-align: right;
 
   font-family: "Great Vibes", cursive;
-  font-size: 2.6rem;
+  font-size: 2rem;
 }
 
 .letter3-page .back-btn {
   position: absolute;
-  bottom: 60px;
+  bottom: 45px;
   left: 50%;
   transform: translateX(-50%);
 
@@ -443,7 +443,7 @@
   width: 100vw;
   position: relative;
 
-  background-size: 115%;
+  background-size: 100%;
   background-position: left center;
   background-repeat: no-repeat;
 
@@ -462,11 +462,11 @@
 /* 💌 I love you */
 .letter4-love {
   position: absolute;
-  right: 25%;
+  right: 15%;
   font-family: "Bonheur Royale", cursive;
-  font-size: 15rem;
+  font-size: 10rem;
   color: #5a1f2d;
-  top: 200px;
+  top: 150px;
   letter-spacing: 0.12rem;
   text-shadow:
     0 6px 18px rgba(90, 31, 45, 0.35);
@@ -493,7 +493,7 @@
 .bouquet-top {
   bottom: 5%;
   right: 10%;
-  width: 340px;
+  width: 240px;
   transform: rotate(-20deg);
 
   animation-delay: 0s;
@@ -503,7 +503,7 @@
 .bouquet-bottom {
   bottom: 6%;
   left: 3%;
-  width: 360px;
+  width: 260px;
   transform: rotate(-10deg);
   animation-delay: 2.5s;
 }
@@ -513,7 +513,7 @@
     transform: translateY(0) rotate(-1deg);
   }
   50% {
-    transform: translateY(-18px) rotate(1deg);
+    transform: translateY(-10px) rotate(1deg);
   }
   100% {
     transform: translateY(0) rotate(-1deg);
@@ -522,7 +522,7 @@
 /* back button */
 .letter4-page .back-btn {
   position: absolute;
-  bottom: 60px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   z-index: 5;
