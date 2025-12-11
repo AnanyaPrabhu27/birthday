@@ -235,36 +235,42 @@
 ======================================================= */
 .letter2-polaroids {
   position: relative;
-  width: 1000px;
-  height: 500px;
+  width: 90%;
+  height: 620px;
   margin-top: 80px; /* space for big heading */
   z-index: 2;
 }
 
 .letter2-polaroids .polaroid {
   position: absolute;
+  width: 160px;
+  aspect-ratio: 3 / 4;
+
+  background: white;
+  border: 3px solid #fff;
+  border-bottom: 40px solid #fff;
+  box-shadow: 0 12px 22px rgba(0,0,0,0.22);
 }
 
 /* LEFT COLUMN */
 .letter2-polaroids .polaroid:nth-child(1) {
-  top: 80px;
-  left: 100px;
+  top: 60px;
+  left: 40px;
   width: 150px;
-  aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
 }
 
 .letter2-polaroids .polaroid:nth-child(3) {
-  top: -100px;
-  left: 80px;
+  top: 230px;
+  left: 0px;
   width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(5deg);
 }
 
 .letter2-polaroids .polaroid:nth-child(5) {
-  top: 500px;
-  left: 300px;
+  top: 410px;
+  left: 90px;
   width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(10deg);
@@ -272,8 +278,8 @@
 
 /* CENTER HERO */
 .letter2-polaroids .polaroid:nth-child(6) {
-  top: 200px;
-  left: 300px;
+  top: 140px;
+  left: 50%;
   width: 350px;
   z-index: 5;
   border-bottom-width: 60px;
@@ -286,24 +292,24 @@
 
 /* RIGHT COLUMN */
 .letter2-polaroids .polaroid:nth-child(2) {
-  top: 80px;
-  right: 150px;
-  width: 200px;
+  top: 40px;
+  right: 60px;
+  width: 170px;
   aspect-ratio: 3 / 4;
   transform: rotate(8deg);
 }
 
 .letter2-polaroids .polaroid:nth-child(4) {
-  top: -130px;
-  right: -50px;
+  top: 230px;
+  right: -10px;
   width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
 }
 
 .letter2-polaroids .polaroid:nth-child(7) {
-  top: 450px;
-  right: -30px;
+  top: 390px;
+  right: 50px;
   width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
