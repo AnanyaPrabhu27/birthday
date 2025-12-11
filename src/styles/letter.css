@@ -23,7 +23,7 @@
 
 .letter1-right {
   position: absolute;
-  right: 45%;
+  right: 40%;
   top: 50%;
   transform: translateY(-50%);
   width: 240px;
