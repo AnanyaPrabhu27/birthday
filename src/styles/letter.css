@@ -223,7 +223,7 @@
 
 /* Subtitle */
 .letter2-subtitle {
-  font-size: 2rem;
+  font-size: 1rem;
   font-style: italic;
   color: black;
   opacity: 0.8;
@@ -235,9 +235,9 @@
 ======================================================= */
 .letter2-polaroids {
   position: relative;
-  width: 1200px;
+  width: 1000px;
   height: 500px;
-  margin-top: 100px; /* space for big heading */
+  margin-top: 80px; /* space for big heading */
   z-index: 2;
 }
 
