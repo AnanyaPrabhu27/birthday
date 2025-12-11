@@ -248,7 +248,7 @@
 /* LEFT COLUMN */
 .letter2-polaroids .polaroid:nth-child(1) {
   top: 80px;
-  left: 180px;
+  left: 100px;
   width: 150px;
   aspect-ratio: 3 / 4;
   transform: rotate(-10deg);
